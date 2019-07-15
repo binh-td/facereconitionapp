@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+.login {
+  position: absolute;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+.login h1 {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #f0f5fa;
+  text-align: center;
+}
+.login h1 span {
+  color: #84bc44;
+}
+.login form {
+  height: 100%;
+  padding: 20px;
+  padding-bottom: 40px;
+  background-color: #23282d;
+  border-top: 4px solid #3c4146;
+  border-bottom: 4px solid #3c4146;
+}
+.login form input, .login form button {
+  width: 100%;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  background-color: #3c4146;
+  color: #f8f8f2;
+  font-size: 16px;
+  line-height: 1.5em;
+  border-radius: 4px;
+  transition: all 0.5s ease;
+}
+.login form input::placeholder, .login form button::placeholder {
+  color: #8c9196;
+}
+.login form input:focus, .login form button:focus {
+  background-color: #50555a;
+}
+.login form button[type="submit"] {
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: #84bc44;
+  color: #f0f5fa;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.login form button[type="submit"]:hover {
+  background-color: #a1e553;
+  color: #6b9937;
+}
+
